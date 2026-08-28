@@ -1,2 +1,7 @@
 *
 !.gitignore
+!vehicles/
+!vehicles/**
+!operations/
+!operations/**
+!.gitkeep

@@ -21,8 +21,11 @@
 
                 {{-- Logo --}}
                 <a href="{{ route('home') }}" class="flex items-center gap-2">
-                    <span class="text-[#C9A84C] font-bold text-xl tracking-widest">DXB</span>
-                    <span class="text-white font-light text-xl tracking-widest">EXPORTS</span>
+                    <img src="{{ asset('images/logos/dxb-main.png') }}" alt="DXB Exports" class="h-9 md:h-10 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <span class="hidden items-center gap-2">
+                        <span class="text-[#C9A84C] font-bold text-xl tracking-widest">DXB</span>
+                        <span class="text-white font-light text-xl tracking-widest">EXPORTS</span>
+                    </span>
                 </a>
 
                 {{-- Desktop menu --}}
@@ -83,6 +86,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
                 <div>
                     <div class="flex items-center gap-2 mb-4">
+                        <img src="{{ asset('images/logos/dxb-main.png') }}" alt="DXB Exports" class="h-8 w-auto object-contain" onerror="this.style.display='none'">
                         <span class="text-[#C9A84C] font-bold text-xl tracking-widest">DXB</span>
                         <span class="text-white font-light text-xl tracking-widest">EXPORTS</span>
                     </div>

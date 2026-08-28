@@ -10,18 +10,46 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.home');
+        $brands = Brand::where('active', true)->withCount(['vehicles' => fn($q) => $q->where('estatus', 'activo')])->orderBy('name')->get();
+        return view('pages.home', compact('brands'));
     }
 
     public function vehicles(?string $brandSlug = null)
     {
-        $brands = Brand::where('active', true)->withCount('vehicles')->get();
+        $brands = Brand::where('active', true)->withCount(['vehicles' => fn($q) => $q->where('estatus', 'activo')])->orderBy('name')->get();
         $activeBrand = $brandSlug ? Brand::where('slug', $brandSlug)->firstOrFail() : $brands->first();
-        $vehicles = $activeBrand
-            ? Vehicle::where('brand_id', $activeBrand->id)->where('active', true)->get()
-            : collect();
 
-        return view('pages.vehicles', compact('brands', 'activeBrand', 'vehicles'));
+        $activeFamily = request('family');
+
+        $families = collect();
+        $vehicles = collect();
+
+        if ($activeBrand) {
+            $families = Vehicle::where('brand_id', $activeBrand->id)
+                ->where('estatus', 'activo')
+                ->select('model')
+                ->distinct()
+                ->orderBy('model')
+                ->pluck('model');
+
+            $query = Vehicle::where('brand_id', $activeBrand->id)->where('estatus', 'activo')->with('brand');
+
+            if ($activeFamily) {
+                $query->where('model', $activeFamily);
+            }
+
+            $query->orderBy('model')->orderBy('version');
+
+            // Paginación más rápida: 12 por página, mantiene ?family=, solo activa si >10
+            $total = (clone $query)->count();
+            if ($total > 10) {
+                $vehicles = $query->paginate(12)->withQueryString();
+            } else {
+                $vehicles = $query->get();
+            }
+        }
+
+        return view('pages.vehicles', compact('brands', 'activeBrand', 'activeFamily', 'families', 'vehicles'));
     }
 
     public function services()

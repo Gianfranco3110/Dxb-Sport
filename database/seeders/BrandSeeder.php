@@ -15,7 +15,6 @@ class BrandSeeder extends Seeder
             ['name' => 'Suzuki',     'slug' => 'suzuki'],
             ['name' => 'Lexus',      'slug' => 'lexus'],
             ['name' => 'Nissan',     'slug' => 'nissan'],
-            ['name' => 'Otras marcas', 'slug' => 'otras-marcas'],
         ];
 
         foreach ($brands as $brand) {

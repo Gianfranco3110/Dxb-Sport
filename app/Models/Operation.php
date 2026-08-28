@@ -19,6 +19,7 @@ class Operation extends Model
             'shipping'     => 'Embarques',
             'delivery'     => 'Entregas',
             'testimonials' => 'Testimonios',
+            'team'         => 'Equipo',
             default        => $category,
         };
     }

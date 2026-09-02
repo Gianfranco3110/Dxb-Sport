@@ -10,15 +10,15 @@ class BrandSeeder extends Seeder
     public function run(): void
     {
         $brands = [
-            ['name' => 'Toyota',     'slug' => 'toyota'],
-            ['name' => 'Mitsubishi', 'slug' => 'mitsubishi'],
-            ['name' => 'Suzuki',     'slug' => 'suzuki'],
-            ['name' => 'Lexus',      'slug' => 'lexus'],
-            ['name' => 'Nissan',     'slug' => 'nissan'],
+            ['name' => 'Toyota',     'slug' => 'toyota',     'logo' => 'brands/toyota.png'],
+            ['name' => 'Mitsubishi', 'slug' => 'mitsubishi', 'logo' => 'brands/mitsubishi.png'],
+            ['name' => 'Suzuki',     'slug' => 'suzuki',     'logo' => 'brands/suzuki.png'],
+            ['name' => 'Lexus',      'slug' => 'lexus',      'logo' => 'brands/lexus.png'],
+            ['name' => 'Nissan',     'slug' => 'nissan',     'logo' => 'brands/nissan.png'],
         ];
 
         foreach ($brands as $brand) {
-            Brand::firstOrCreate(['slug' => $brand['slug']], $brand);
+            Brand::updateOrCreate(['slug' => $brand['slug']], $brand);
         }
     }
 }

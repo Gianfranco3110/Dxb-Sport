@@ -6,12 +6,13 @@
 @source '../**/*.js';
 
 @theme {
-    --color-gold: #C9A84C;
-    --color-gold-light: #E8C96A;
-    --color-dark: #0A0A0A;
-    --color-dark-2: #111111;
-    --color-dark-3: #1A1A1A;
-    --color-gray-soft: #2A2A2A;
+    --color-brand: #174638;
+    --color-brand-hover: #1f5a48;
+    --color-off-white: #F5F3EE;
+    --color-dark: #0D0E0E;
+    --color-dark-2: #111313;
+    --color-dark-3: #1A1C1C;
+    --color-steel: #686D6F;
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -21,24 +22,45 @@
     }
     body {
         background-color: var(--color-dark);
-        color: #f5f5f5;
+        color: var(--color-off-white);
     }
 }
 
 @layer components {
+    .btn-primary {
+        @apply bg-[#174638] hover:bg-[#1f5a48] text-[#F5F3EE] font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
+    }
     .btn-gold {
-        @apply bg-[#C9A84C] hover:bg-[#E8C96A] text-black font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
+        @apply bg-[#174638] hover:bg-[#1f5a48] text-[#F5F3EE] font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
     }
     .btn-outline {
-        @apply border border-[#C9A84C] text-[#C9A84C] hover:bg-[#C9A84C] hover:text-black font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
+        @apply border border-[#686D6F] text-[#F5F3EE] hover:border-[#174638] hover:bg-[#174638] hover:text-[#F5F3EE] font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
+    }
+    .btn-outline-brand {
+        @apply border border-[#174638] text-[#174638] hover:bg-[#174638] hover:text-[#F5F3EE] font-semibold px-6 py-3 rounded-sm transition-all duration-200 text-sm tracking-wide;
     }
     .section-title {
-        @apply text-3xl md:text-4xl font-bold text-white;
+        @apply text-3xl md:text-4xl font-bold text-[#F5F3EE];
+    }
+    .section-title-light {
+        @apply text-3xl md:text-4xl font-bold text-[#0D0E0E];
+    }
+    .brand-line {
+        @apply w-12 h-0.5 bg-[#174638] my-4;
     }
     .gold-line {
-        @apply w-12 h-0.5 bg-[#C9A84C] my-4;
+        @apply w-12 h-0.5 bg-[#174638] my-4;
     }
     .card-dark {
-        @apply bg-[#1A1A1A] border border-[#2A2A2A] rounded-sm;
+        @apply bg-[#1A1C1C] border border-[#686D6F]/30 rounded-sm;
+    }
+    .card-light {
+        @apply bg-[#F5F3EE] border border-[#686D6F]/20 rounded-sm;
+    }
+    .section-light {
+        @apply bg-[#F5F3EE] text-[#0D0E0E];
+    }
+    .section-dark {
+        @apply bg-[#0D0E0E] text-[#F5F3EE];
     }
 }

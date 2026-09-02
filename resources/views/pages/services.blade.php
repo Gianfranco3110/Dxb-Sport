@@ -5,18 +5,18 @@
 
 @section('content')
 
-<div class="pt-20 min-h-screen bg-[#0A0A0A]">
+<div class="pt-20 min-h-screen bg-[#0D0E0E]">
 
-    <div class="bg-[#111111] border-b border-[#1A1A1A] py-12 md:py-16">
+    <div class="bg-[#0D0E0E] border-b border-[#686D6F]/20 py-6 md:py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <p class="text-[#C9A84C] text-xs tracking-[0.3em] uppercase mb-3">Lo que hacemos</p>
+            <p class="inline-flex items-center bg-[#174638] text-[#F5F3EE] text-xs tracking-[0.25em] uppercase mb-3 font-semibold px-2.5 py-1 rounded-sm">Lo que hacemos</p>
             <h1 class="section-title mb-2">Servicios</h1>
-            <div class="gold-line"></div>
-            <p class="text-gray-400 text-sm mt-3 max-w-xl">Un solo equipo que cubre todo el proceso: desde la búsqueda del vehículo hasta su llegada al puerto de destino.</p>
+            <div class="brand-line"></div>
+            <p class="text-[#F5F3EE]/70 text-sm mt-3 max-w-xl">Un solo equipo que cubre todo el proceso: desde la búsqueda del vehículo hasta su llegada al puerto de destino.</p>
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 md:py-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             @php
@@ -67,16 +67,16 @@
 
             @foreach($services as $service)
             <div class="card-dark p-8">
-                <div class="w-12 h-12 rounded-sm bg-[#C9A84C]/10 flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-[#C9A84C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="w-12 h-12 rounded-sm bg-[#174638] flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-[#F5F3EE]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         {!! $service['icon'] !!}
                     </svg>
                 </div>
-                <h2 class="text-white font-bold text-xl mb-5">{{ $service['title'] }}</h2>
+                <h2 class="text-[#F5F3EE] font-bold text-xl mb-5">{{ $service['title'] }}</h2>
                 <ul class="space-y-3">
                     @foreach($service['items'] as $item)
-                    <li class="flex items-start gap-3 text-gray-400 text-sm">
-                        <span class="w-1.5 h-1.5 rounded-full bg-[#C9A84C] mt-1.5 shrink-0"></span>
+                    <li class="flex items-start gap-3 text-[#F5F3EE]/75 text-sm">
+                        <span class="w-1.5 h-1.5 rounded-full bg-[#174638] mt-1.5 shrink-0"></span>
                         {{ $item }}
                     </li>
                     @endforeach
@@ -85,8 +85,10 @@
             @endforeach
         </div>
 
-        {{-- CTA --}}
-        <div class="mt-16 text-center">
+        {{-- CTA — Fondo claro descanso visual --}}
+        <div class="mt-16 text-center bg-[#F5F3EE] rounded-sm py-10 px-6 border border-[#686D6F]/20">
+            <h3 class="text-[#0D0E0E] font-bold text-xl mb-2">¿Necesitas un servicio integral?</h3>
+            <p class="text-[#686D6F] text-sm mb-6">Te acompañamos desde la cotización hasta el embarque</p>
             <a href="https://wa.me/{{ env('WHATSAPP_NUMBER', '971558369427') }}?text=Hola,%20quisiera%20más%20información%20sobre%20sus%20servicios"
                target="_blank"
                class="btn-gold inline-flex items-center gap-2">

@@ -5,18 +5,54 @@
 
 @section('content')
 
-<div class="pt-20 min-h-screen bg-[#0A0A0A]">
+<div class="pt-20 min-h-screen bg-[#0D0E0E]">
 
-    <div class="bg-[#111111] border-b border-[#1A1A1A] py-12 md:py-16">
+    <div class="bg-[#0D0E0E] border-b border-[#686D6F]/20 py-12 md:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <p class="text-[#C9A84C] text-xs tracking-[0.3em] uppercase mb-3">El proceso</p>
+            <p class="inline-flex items-center bg-[#174638] text-[#F5F3EE] text-xs tracking-[0.25em] uppercase mb-3 font-semibold px-2.5 py-1 rounded-sm">El proceso</p>
             <h1 class="section-title mb-2">Cómo trabajamos</h1>
-            <div class="gold-line"></div>
-            <p class="text-gray-400 text-sm mt-3 max-w-xl">Un proceso claro y transparente desde el primer contacto hasta la entrega en el puerto de destino.</p>
+            <div class="brand-line"></div>
+            <p class="text-[#F5F3EE]/70 text-sm mt-3 max-w-xl">Un proceso claro y transparente desde el primer contacto hasta la entrega en el puerto de destino.</p>
         </div>
     </div>
 
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16 md:py-24">
+    {{-- Showcase operaciones — usa todo el ancho --}}
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 rounded-sm overflow-hidden">
+            {{-- Foto grande 1 — Carga --}}
+            <div class="relative h-[320px] sm:h-[400px] lg:h-[520px] overflow-hidden group border border-[#686D6F]/20">
+                <img src="{{ asset('storage/operations/how-we-work/carga-contenedor.jpg') }}"
+                     alt="Carga de vehículo en contenedor — Dubái"
+                     class="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-black/10"></div>
+                <div class="absolute top-4 left-4">
+                    <span class="bg-[#174638] text-[#F5F3EE] text-[10px] tracking-[0.2em] uppercase px-3 py-1.5 rounded-sm font-semibold">Operación real — Dubái</span>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+                    <h3 class="text-white font-bold text-xl sm:text-2xl leading-tight">Carga y trincaje en contenedor</h3>
+                    <p class="text-[#F5F3EE]/80 text-sm mt-2 max-w-lg">Montacargas Toyota y equipo DXB Exports supervisando la estiba — Paso 05 del proceso.</p>
+                </div>
+            </div>
+            {{-- Foto grande 2 — Inspección --}}
+            <div class="relative h-[320px] sm:h-[400px] lg:h-[520px] overflow-hidden group border border-[#686D6F]/20">
+                <img src="{{ asset('storage/operations/how-we-work/inspeccion-detalle.jpg') }}"
+                     alt="Inspección previa al embarque — Dubái"
+                     class="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-black/10"></div>
+                <div class="absolute top-4 left-4">
+                    <span class="bg-[#F5F3EE] border border-[#686D6F]/20 text-[#0D0E0E] text-[10px] tracking-[0.2em] uppercase px-3 py-1.5 rounded-sm font-semibold">Paso 04 — Inspección</span>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+                    <h3 class="text-white font-bold text-xl sm:text-2xl leading-tight">Inspección previa al embarque</h3>
+                    <p class="text-[#F5F3EE]/80 text-sm mt-2 max-w-lg">Verificación de llantas, carrocería y protecciones antes del shipping marítimo.</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-[#F5F3EE] text-xs text-center mt-3 tracking-wide">Fotos reales de operaciones DXB Exports — Business Bay, Dubái</p>
+    </div>
+
+    {{-- Timeline pasos — usa todo el ancho en grid horizontal --}}
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 pb-16 md:pb-24">
 
         @php
         $steps = [
@@ -53,30 +89,31 @@
         ];
         @endphp
 
-        <div class="relative">
-            {{-- Línea vertical --}}
-            <div class="absolute left-6 top-0 bottom-0 w-px bg-[#2A2A2A] hidden sm:block"></div>
-
-            <div class="space-y-8">
-                @foreach($steps as $step)
-                <div class="flex gap-6 sm:gap-8 items-start">
-                    {{-- Número --}}
-                    <div class="relative z-10 w-12 h-12 rounded-sm bg-[#C9A84C] flex items-center justify-center shrink-0">
-                        <span class="text-black font-bold text-sm">{{ $step['num'] }}</span>
-                    </div>
-                    {{-- Contenido --}}
-                    <div class="card-dark p-6 flex-1">
-                        <h3 class="text-white font-bold text-base mb-2">{{ $step['title'] }}</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed">{{ $step['desc'] }}</p>
-                    </div>
-                </div>
-                @endforeach
-            </div>
+        <div class="mt-8 mb-8">
+            <p class="inline-flex items-center bg-[#174638] text-[#F5F3EE] text-xs tracking-[0.25em] uppercase mb-2 font-semibold px-2.5 py-1 rounded-sm">El proceso paso a paso</p>
+            <h3 class="text-[#F5F3EE] font-bold text-xl">6 pasos claros</h3>
+            <div class="w-10 h-0.5 bg-[#174638] mt-3"></div>
         </div>
 
-        {{-- CTA --}}
-        <div class="mt-16 text-center">
-            <p class="text-gray-400 text-sm mb-6">¿Listo para comenzar? Contáctanos y arrancamos el proceso.</p>
+        {{-- Línea horizontal decorativa (desktop) --}}
+        <div class="hidden lg:block h-px bg-gradient-to-r from-transparent via-[#686D6F]/30 to-transparent mb-10"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            @foreach($steps as $step)
+            <div class="card-dark p-6 flex flex-col hover:border-[#174638]/30 transition-colors group relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-[#174638]/5 rounded-bl-full group-hover:bg-[#174638]/10 transition-colors"></div>
+                <div class="w-10 h-10 rounded-sm bg-[#174638] flex items-center justify-center shrink-0 mb-4">
+                    <span class="text-[#F5F3EE] font-bold text-sm">{{ $step['num'] }}</span>
+                </div>
+                <h3 class="text-[#F5F3EE] font-bold text-[15px] mb-2 leading-tight">{{ $step['title'] }}</h3>
+                <p class="text-[#F5F3EE]/70 text-sm leading-relaxed flex-1">{{ $step['desc'] }}</p>
+            </div>
+            @endforeach
+        </div>
+
+        {{-- CTA — Fondo claro descanso visual --}}
+        <div class="mt-14 text-center bg-[#F5F3EE] rounded-sm py-10 px-6 border border-[#686D6F]/20">
+            <p class="text-[#686D6F] text-sm mb-6">¿Listo para comenzar? Contáctanos y arrancamos el proceso.</p>
             <a href="https://wa.me/{{ env('WHATSAPP_NUMBER', '971558369427') }}?text=Hola,%20quiero%20iniciar%20el%20proceso%20de%20importación%20de%20un%20vehículo"
                target="_blank"
                class="btn-gold inline-flex items-center gap-2">

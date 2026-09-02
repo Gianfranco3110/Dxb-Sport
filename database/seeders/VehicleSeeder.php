@@ -14,7 +14,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla elite 1.8 AT china',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -25,7 +25,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla GLi 1.6L AT GCC',
                 'engine'         => '1.6L',
                 'transmission'   => 'Automática',
@@ -36,7 +36,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla GR Sport 1.6L Turbo MT GCC',
                 'engine'         => '1.6L Turbo',
                 'transmission'   => 'Manual',
@@ -47,7 +47,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla XLi 1.6L AT GCC',
                 'engine'         => '1.6L',
                 'transmission'   => 'Automática',
@@ -58,7 +58,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla XLi 2.0L AT GCC',
                 'engine'         => '2.0L',
                 'transmission'   => 'Automática',
@@ -69,7 +69,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla Cross',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla cross 1.8 hybrid Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -80,7 +80,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Corolla Cross',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Corolla cross elite hybrid',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -91,7 +91,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Fortuner',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Fortuner Dubai 2.7 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -102,7 +102,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Fortuner',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Fortuner EX 2.7 Gasoline 4x2 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -113,7 +113,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Fortuner',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Fortuner EX 2.7 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -124,7 +124,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Fortuner',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Fortuner VX 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -135,7 +135,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Highlander',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Highlander LE 2.5 HybridGCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -146,7 +146,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Highlander',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Highlander Limited 2.5 Hybrid GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -157,7 +157,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Highlander',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Highlander Limited 2.5 hybrid GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -168,7 +168,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux Adventure 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -179,7 +179,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux champion 2.4 diesel 4x2 AT',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -201,7 +201,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.4D MT 4x2 GCC',
                 'engine'         => '2.4D Diesel',
                 'transmission'   => 'Manual',
@@ -212,7 +212,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.4D MT 4x4 GCC',
                 'engine'         => '2.4D Diesel',
                 'transmission'   => 'Manual',
@@ -223,7 +223,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.7 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -234,7 +234,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.7 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -245,7 +245,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.7 MT 4x2 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -256,7 +256,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux DLX 2.7 MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -267,7 +267,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2027,
+                'year'           => 2026,
                 'version'        => 'Hilux E 2.8L Diesel MT 4x4 2027',
                 'engine'         => '2.8L Diesel',
                 'transmission'   => 'Manual',
@@ -278,7 +278,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux GLXS-SR5 2.7 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -289,7 +289,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux GLXS-SR5 2.7 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -300,7 +300,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux GR Sport 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -311,7 +311,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Hilux',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Hilux SR5 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -322,7 +322,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 EXR 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -333,7 +333,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GR Sport 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -344,7 +344,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GR Sport 3.5 Twin Turbo Hybrid 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -355,7 +355,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Base 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -366,7 +366,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR High 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -377,7 +377,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR High 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -388,7 +388,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR High Option 3.5 Twin Turbo Hybrid 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -399,7 +399,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Low 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -410,7 +410,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Low 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -421,7 +421,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Low Option 3.5 Twin Turbo Hybrid 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -432,7 +432,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Medium 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -443,7 +443,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 GXR Medium 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -454,7 +454,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 VX 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -465,7 +465,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 VX 4.0 V6 Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -476,7 +476,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 VXR 3.5 Twin Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -487,7 +487,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 300',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Land Cruiser 300 VXR 3.5 Twin Turbo Hybrid 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -498,7 +498,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC71 2-Door Hardtop Base 4.0 V6 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -509,7 +509,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC71 2-Door Hardtop LX 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -520,7 +520,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC71 2-Door Hardtop LX Full 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -531,7 +531,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC76 4-Door Hardtop Wagon Base 4.0 V6 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -542,7 +542,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC76 4-Door Hardtop Wagon LX 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -553,7 +553,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC76 4-Door Hardtop Wagon LX Full 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -564,7 +564,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC78 2-Door Troop Carrier 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -575,7 +575,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC78 2-Door Troop Carrier 4.0L V6 gasoline MT 4x4 GCC',
                 'engine'         => '4.0L V6 gasoline',
                 'transmission'   => 'Manual',
@@ -586,7 +586,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 2-Door Pickup LX 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -597,7 +597,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 2-Door Pickup LX Base 4.0 V6 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -608,7 +608,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 2-Door Pickup LX Full 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -619,7 +619,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 4-Door Pickup Base 4.0 V6 Gasoline MT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -630,7 +630,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 4-Door Pickup LX 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -641,7 +641,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Land Cruiser 70',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LC79 4-Door Pickup LX Full 4.0 V6 Gasoline AT 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -652,7 +652,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Prado',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Prado Adventure 2.4 Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -663,7 +663,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Prado',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Prado First Edition 2.4 Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -674,7 +674,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Prado',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Prado TXL 2.4 Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -685,7 +685,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Prado',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Prado VXR 2.4 Turbo Gasoline 4x4 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -696,7 +696,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'adventure 2.5 hybrid Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -707,7 +707,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LE 2.0 GCC',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -718,7 +718,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Limited 2.5 hybrid Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -729,7 +729,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'RAV4 luxury 2.0L Petrol China',
                 'engine'         => '2.0L Petrol',
                 'transmission'   => 'Automática',
@@ -740,7 +740,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'RAV4 Luxury 2.5 hybrid China',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -751,7 +751,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'vxr 2.5 hybrid Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -762,7 +762,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'XLE 2.0 Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -773,7 +773,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Rav4',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'XSE 2.5 hybrid Gcc',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -784,7 +784,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Yaris',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Yaris E 1.2 CVT GCC',
                 'engine'         => null,
                 'transmission'   => 'CVT',
@@ -795,7 +795,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'toyota',
                 'model'          => 'Yaris',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Yaris GR 1.6 turbo MT GCC',
                 'engine'         => null,
                 'transmission'   => 'Manual',
@@ -806,7 +806,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'L200',
-                'year'           => 2024,
+                'year'           => 2027,
                 'version'        => 'L200 GL 2.4L gasolina 4x4 MT',
                 'engine'         => '2.4L gasolina',
                 'transmission'   => 'Manual',
@@ -817,7 +817,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'L200',
-                'year'           => 2024,
+                'year'           => 2027,
                 'version'        => 'L200 GLS 2.4L gasolina 4x4 MT',
                 'engine'         => '2.4L gasolina',
                 'transmission'   => 'Manual',
@@ -828,7 +828,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'Montero Sport',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Montero sport Full option 3.0L Gasolina 4x4',
                 'engine'         => '3.0L Gasolina',
                 'transmission'   => 'Automática',
@@ -839,7 +839,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'Montero Sport',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Montero sport Full option Sportivo 3.0L Gasolina 4x4',
                 'engine'         => '3.0L Gasolina',
                 'transmission'   => 'Automática',
@@ -850,7 +850,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'Outlander',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Outlander high line 2.5L gasolina 4x4',
                 'engine'         => '2.5L gasolina',
                 'transmission'   => 'Automática',
@@ -861,7 +861,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'Xforce',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Xforce P-Line 1.5L gasolina',
                 'engine'         => '1.5L gasolina',
                 'transmission'   => 'Automática',
@@ -872,7 +872,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'mitsubishi',
                 'model'          => 'Xpander',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Xpander cross 1.5L gasolina',
                 'engine'         => '1.5L gasolina',
                 'transmission'   => 'Automática',
@@ -883,7 +883,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Baleno',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Baleno GL 1.4L gasolina',
                 'engine'         => '1.4L gasolina',
                 'transmission'   => 'Automática',
@@ -894,7 +894,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Baleno',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Baleno GLX 1.4L gasolina',
                 'engine'         => '1.4L gasolina',
                 'transmission'   => 'Automática',
@@ -905,7 +905,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Fronx',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Fronx GLX 1.5L hybrid gasolina',
                 'engine'         => '1.5L hybrid gasolina',
                 'transmission'   => 'Automática',
@@ -916,7 +916,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Jimny',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Jimmy GLX 2 door AT',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -927,7 +927,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Jimny',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Jimny GLX 4 door AT',
                 'engine'         => null,
                 'transmission'   => 'Automática',
@@ -938,7 +938,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'suzuki',
                 'model'          => 'Swift',
-                'year'           => 2024,
+                'year'           => 2027,
                 'version'        => 'Swift GLX 1.2L gasolina',
                 'engine'         => '1.2L gasolina',
                 'transmission'   => 'Automática',
@@ -949,7 +949,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'GX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'GX 550 3.5L twinturbo gasolina',
                 'engine'         => '3.5L Twin Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -960,7 +960,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LBX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'LBX 1.5L hybrid gasolina',
                 'engine'         => '1.5L hybrid gasolina',
                 'transmission'   => 'Automática',
@@ -971,7 +971,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 600 F Sport 3.5L twinturbo gasolina',
                 'engine'         => '3.5L Twin Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -982,7 +982,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 600 Prestige 3.5L twinturbo gasolina',
                 'engine'         => '3.5L Twin Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -993,7 +993,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 600 Signature 3.5L twinturbo gasolina',
                 'engine'         => '3.5L Twin Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -1004,7 +1004,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 600 VIP 3.5L twinturbo gasolina',
                 'engine'         => '3.5L Twin Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -1015,7 +1015,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 700H F Sport 3.5L TwinTurbo híbrido gasolina',
                 'engine'         => '3.5L Twin Turbo híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1026,7 +1026,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 700H Signature 3.5L TwinTurbo híbrido gasolina',
                 'engine'         => '3.5L Twin Turbo híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1037,7 +1037,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'LX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Lexus LX 700H VIP 3.5L TwinTurbo híbrido gasolina',
                 'engine'         => '3.5L Twin Turbo híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1048,7 +1048,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'NX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'NX 350 F Sport 2.4L Turbo gasolina 4x4',
                 'engine'         => '2.4L Turbo gasolina',
                 'transmission'   => 'Automática',
@@ -1059,7 +1059,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'NX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'NX 350H Premier 2.5L híbrido gasolina',
                 'engine'         => '2.5L híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1070,7 +1070,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'RX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'RX 350H F Sport 2.5L híbrido gasolina 4x4',
                 'engine'         => '2.5L híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1081,7 +1081,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'RX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'RX 350H Premier 2.5L híbrido gasolina 4x4',
                 'engine'         => '2.5L híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1092,7 +1092,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'lexus',
                 'model'          => 'RX',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'RX 500H F Sport 2.4L Turbo híbrido gasolina 4x4',
                 'engine'         => '2.4L Turbo híbrido gasolina',
                 'transmission'   => 'Automática',
@@ -1103,7 +1103,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Navara',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Navara LE Plus 2.5L 4x4 gasolina MT',
                 'engine'         => '2.5L',
                 'transmission'   => 'Manual',
@@ -1114,7 +1114,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Navara',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Navara PRO 4X 2.5L 4x4 gasolina AT',
                 'engine'         => '2.5L',
                 'transmission'   => 'Automática',
@@ -1125,7 +1125,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Patrol',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Patrol LE Platinum City 3.5L V6 TwinTurbo Gasolina 4x4',
                 'engine'         => '3.5L V6 Twin Turbo Gasolina',
                 'transmission'   => 'Automática',
@@ -1136,7 +1136,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Patrol',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Patrol Nismo 3.5L V6 TwinTurbo Gasolina 4x4',
                 'engine'         => '3.5L V6 Twin Turbo Gasolina',
                 'transmission'   => 'Automática',
@@ -1147,7 +1147,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Patrol',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Patrol SE Platinum City 3.8L V6 Gasolina 4x4',
                 'engine'         => '3.8L V6 Gasolina',
                 'transmission'   => 'Automática',
@@ -1158,7 +1158,7 @@ class VehicleSeeder extends Seeder
             [
                 'brand'          => 'nissan',
                 'model'          => 'Patrol',
-                'year'           => 2024,
+                'year'           => 2026,
                 'version'        => 'Patrol XE 3.8L V6 Gasolina 4x4',
                 'engine'         => '3.8L V6 Gasolina',
                 'transmission'   => 'Automática',

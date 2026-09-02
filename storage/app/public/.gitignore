@@ -4,4 +4,6 @@
 !vehicles/**
 !operations/
 !operations/**
+!brands/
+!brands/**
 !.gitkeep

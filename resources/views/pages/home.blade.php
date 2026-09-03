@@ -143,7 +143,7 @@
                      alt="Múltiples países de fabricación"
                      class="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0D0E0E] via-[#0D0E0E]/30 to-transparent"></div>
-                <span class="absolute top-4 left-4 bg-[#F5F3EE] text-[#0D0E0E] text-[11px] font-bold tracking-widest px-2.5 py-1 rounded-sm">02</span>
+                <span class="absolute top-4 left-4 bg-[#174638] text-[#F5F3EE] text-[11px] font-bold tracking-widest px-2.5 py-1 rounded-sm">02</span>
                 <div class="absolute bottom-0 left-0 right-0 p-6">
                     <h3 class="text-[#F5F3EE] font-bold text-[15px] leading-tight">Múltiples países de fabricación</h3>
                     <p class="text-[#F5F3EE]/60 text-xs mt-1.5 leading-relaxed">Japón, Tailandia, China e India según disponibilidad.</p>
@@ -184,7 +184,7 @@
                      alt="Supervisión de carga"
                      class="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0D0E0E] via-[#0D0E0E]/30 to-transparent"></div>
-                <span class="absolute top-4 left-4 bg-[#F5F3EE] text-[#0D0E0E] text-[11px] font-bold tracking-widest px-2.5 py-1 rounded-sm">05</span>
+                <span class="absolute top-4 left-4 bg-[#174638] text-[#F5F3EE] text-[11px] font-bold tracking-widest px-2.5 py-1 rounded-sm">05</span>
                 <div class="absolute bottom-0 left-0 right-0 p-6">
                     <h3 class="text-[#F5F3EE] font-bold text-[15px] leading-tight">Supervisión de carga y logística</h3>
                     <p class="text-[#F5F3EE]/60 text-xs mt-1.5 leading-relaxed">Trincaje profesional y sellado en puerto supervisado por DXB.</p>

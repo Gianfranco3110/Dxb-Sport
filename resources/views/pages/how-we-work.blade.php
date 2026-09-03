@@ -40,7 +40,7 @@
                      class="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-black/10"></div>
                 <div class="absolute top-4 left-4">
-                    <span class="bg-[#F5F3EE] border border-[#686D6F]/20 text-[#0D0E0E] text-[10px] tracking-[0.2em] uppercase px-3 py-1.5 rounded-sm font-semibold">Paso 04 — Inspección</span>
+                    <span class="bg-[#174638] text-[#F5F3EE] text-[10px] tracking-[0.2em] uppercase px-3 py-1.5 rounded-sm font-semibold">Paso 04 — Inspección</span>
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
                     <h3 class="text-white font-bold text-xl sm:text-2xl leading-tight">Inspección previa al embarque</h3>

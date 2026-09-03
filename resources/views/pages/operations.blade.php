@@ -58,12 +58,29 @@
                     @foreach($ops as $op)
                     <div>
                         @if($op->type === 'video')
-                            <div class="relative aspect-video bg-[#1A1C1C] rounded-sm overflow-hidden border border-[#686D6F]/20">
-                                <video src="{{ asset('storage/' . $op->url) }}"
+                            <div class="relative aspect-video bg-[#1A1C1C] rounded-sm overflow-hidden border border-[#686D6F]/20" x-data="{ ready: false, muted: true }">
+                                <div x-show="!ready" class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                    <svg class="w-8 h-8 animate-spin text-[#686D6F]" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+                                    </svg>
+                                </div>
+                                <video x-ref="video"
+                                       src="{{ asset('storage/' . $op->url) }}"
                                        class="w-full h-full object-cover"
-                                       controls
-                                       preload="metadata">
+                                       autoplay
+                                       loop
+                                       muted
+                                       playsinline
+                                       preload="auto"
+                                       @loadeddata="ready = true">
                                 </video>
+                                <button type="button"
+                                        @click="muted = !muted; $refs.video.muted = muted"
+                                        class="absolute bottom-3 right-3 z-10 w-9 h-9 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center border border-[#686D6F]/30 backdrop-blur-sm transition-colors">
+                                    <svg x-show="muted" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2 2m0-4l-2 2M9 9v6a1 1 0 001.6.8L14 13m-5-4l4.6-3.45A1 1 0 0115 6.35v11.3a1 1 0 01-1.4.9L9 15"/></svg>
+                                    <svg x-show="!muted" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M9 9v6a1 1 0 001.6.8L15 12l-4.4-3.8A1 1 0 009 9z"/></svg>
+                                </button>
                             </div>
                             @if($op->caption)
                             <p class="text-[#686D6F] text-xs mt-2 text-center">{{ $op->caption }}</p>

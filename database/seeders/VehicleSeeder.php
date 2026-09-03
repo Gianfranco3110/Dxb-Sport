@@ -108,7 +108,7 @@ class VehicleSeeder extends Seeder
                 'transmission'   => 'Automática',
                 'origin_country' => 'Emiratos Árabes Unidos',
                 'availability'   => 'on_request',
-                'images'         => ['vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1125.jpg', 'vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1126.jpg'],
+                'images'         => ['vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1123.jpg', 'vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1124.jpg', 'vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1125.jpg', 'vehicles/toyota/fortuner/fortuner-ex-2-7-gasoline-4x2-gcc/IMG_1126.jpg'],
             ],
             [
                 'brand'          => 'toyota',
